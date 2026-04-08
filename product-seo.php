@@ -94,7 +94,7 @@ function custom_product_meta_tags(): void {
     ?>
     <meta name="description" content="<?php echo esc_attr($seo_description);?>">
     <meta name="keywords" content="<?php echo esc_attr($seo_keywords);?>">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="product">
     <meta property="og:url" content="<?php echo esc_url(get_permalink($id)); ?>">
     <meta property="og:title" content="<?php echo esc_attr($seo_title); ?>">
     <meta property="og:description" content="<?php echo esc_attr($seo_description); ?>">
